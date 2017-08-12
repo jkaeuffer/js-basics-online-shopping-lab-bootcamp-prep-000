@@ -55,7 +55,9 @@ function total() {
 
 addToCart('banana')
 addToCart('apple')
-cart.forEach(function)
+cart.forEach(function(index) {
+  if (cart[index].hasOwnProperty('apple'))
+})
 
 function removeFromCart(item) {
 
