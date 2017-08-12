@@ -66,7 +66,7 @@ function removeFromCart(item) {
     console.log("That item is not in your cart.")
   }
   else {
-    
+    itemIndex.forEach(thing)
   }
   }
 }
