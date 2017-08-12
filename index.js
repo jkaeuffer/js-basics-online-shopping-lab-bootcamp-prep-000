@@ -54,7 +54,7 @@ function total() {
   }
 addToCart('banana')
 addToCart('apple')
-cart.hasOwnProperty('apple')
+console.log(cart.hasOwnProperty('apple'))
 
 function removeFromCart(item) {
 
