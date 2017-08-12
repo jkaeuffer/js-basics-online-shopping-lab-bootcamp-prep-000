@@ -66,13 +66,8 @@ function removeFromCart(item) {
     console.log("That item is not in your cart.")
   }
   else {
-    itemIndex.forEach(function(thing)) {
-      cart.pop(thing)
     }
     }
-  }
-  }
-}
 
 addToCart('banana')
 addToCart('apples')
