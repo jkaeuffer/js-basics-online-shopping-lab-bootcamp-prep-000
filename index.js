@@ -44,13 +44,13 @@ function viewCart() {
     return console.log(`In your cart, you have ${shoppingList}.`)
   }
 }
-addToCart('banana')
+/*addToCart('banana')
 addToCart('apple')
 let itemsAndPrices = []
 let totalPrice = 0
 for (var index in cart) itemsAndPrices.push(cart[index])
 console.log(itemsAndPrices)
-
+*/
 
 /*
 The total() function accepts no arguments, iterates through the cart array,
