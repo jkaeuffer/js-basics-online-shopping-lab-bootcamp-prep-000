@@ -62,9 +62,6 @@ function removeFromCart(item) {
       itemIndex.push(i)
       itemFound = true;
     }
-    else {
-      console.log("That item is not in your cart.")
-    }
   }
 }
 
