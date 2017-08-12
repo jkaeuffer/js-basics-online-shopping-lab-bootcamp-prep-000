@@ -53,7 +53,7 @@ function total() {
   let totalPrice = 0
   cart.forEach(function(e) {
     for (var key in e) totalPrice += (e[key])
-    }
+  })
   return totalPrice
   }
 function removeFromCart(item) {
