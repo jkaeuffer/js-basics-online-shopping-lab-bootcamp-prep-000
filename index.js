@@ -47,7 +47,7 @@ function viewCart() {
 
 function total() {
   let totalPrice = 0
-  cart.forEach(function(smth) { //iterate through each value of the cart and push its price
+  cart.forEach(function(item) { //iterate through each value of the cart and push its price
     for (var key in smth) totalPrice += (foo[smth])
   })
   return totalPrice
@@ -56,7 +56,7 @@ function total() {
 addToCart('banana')
 addToCart('apple')
 cart.forEach(function(item) {
-  if (cart[smth].hasOwnProperty('apple')) {
+  if (cart[item].hasOwnProperty('apple')) {
     cart.pop(cart[smth])
   }
 })
