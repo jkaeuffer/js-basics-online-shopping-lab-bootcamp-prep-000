@@ -46,9 +46,7 @@ function viewCart() {
 }
 addToCart('banana')
 addToCart('apple')
-for (var key in cart) {
-  console.log('key')
-}
+console.log(cart[0])
 /*
 The total() function accepts no arguments, iterates through the cart array,
 and returns the current total value of the items in the cart.*/
