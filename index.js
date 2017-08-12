@@ -61,7 +61,7 @@ and returns the current total value of the items in the cart.*/
 function total() {
   let itemsAndPrices = []
   let totalPrice = 0
-
+}
 function removeFromCart(item) {
   // write your code here
 }
