@@ -66,6 +66,9 @@ function removeFromCart(item) {
   return cart
 }
 
+addToCart('banana')
+addToCart('apples')
+
 function placeOrder(cardNumber) {
   // write your code here
 }
