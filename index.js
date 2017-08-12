@@ -54,9 +54,10 @@ function total() {
   }
 addToCart('banana')
 addToCart('apple')
+cart.hasOwnProperty('apple')
 
 function removeFromCart(item) {
-  
+
   }
 }
 
