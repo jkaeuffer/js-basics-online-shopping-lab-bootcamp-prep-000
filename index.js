@@ -52,7 +52,7 @@ let totalPrice = 0
 cart.forEach(function(i) {
   itemsAndPrices.push(cart[i])
 })
-console.log(itemsAndPrices)
+// console.log(itemsAndPrices)
 
 
 /*
