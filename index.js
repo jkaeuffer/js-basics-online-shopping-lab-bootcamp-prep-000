@@ -62,12 +62,6 @@ and returns the current total value of the items in the cart.*/
 function total() {
   let itemsAndPrices = []
   let totalPrice = 0
-  let itemInfo = Object.keys(cart)
-  for (let i = 0; i < itemPrices.length; i++) {
-    totalPrice += parseInt(itemPrices[i])
-  }
-  return totalPrice
-}
 
 function removeFromCart(item) {
   // write your code here
