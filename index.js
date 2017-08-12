@@ -53,14 +53,6 @@ function total() {
   return totalPrice
   }
 
-addToCart('banana')
-addToCart('apple')
-cart.forEach(function(item) {
-  if (item.hasOwnProperty('apple')) {
-    cart.pop(item)
-  }
-})
-console.log(cart)
 
 function removeFromCart(item) {
   cart.forEach(function(thing)) {
