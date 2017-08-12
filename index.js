@@ -76,7 +76,9 @@ function removeFromCart(item) {
   addToCart("watermelon");
   addToCart("yams");
     removeFromCart("blah");
-    if (cart[0].hasOwnProperty('vanilla'))
+    if (cart[0].hasOwnProperty('vanilla')) {
+      cart.pop(cart[0])
+    }
 console.log(cart[0].hasOwnProperty('vanilla'))
 
 function placeOrder(cardNumber) {
