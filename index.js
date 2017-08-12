@@ -50,7 +50,7 @@ and returns the current total value of the items in the cart.*/
 function total() {
   let itemsAndPrices = []
   let totalPrice = 0
-  for (let i = 0; i < cart.length; i++) {
+  for (item in cart) itemsAndPrices.push(item)
     itemsAndPrices.push(cart[i])
     }
   for (let i = 0; i < itemsAndPrices.length; i++) {
