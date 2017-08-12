@@ -46,13 +46,13 @@ function viewCart() {
 }
 addToCart('banana')
 addToCart('apple')
-console.log(cart)
+// console.log(cart)
 let itemsAndPrices = []
 let totalPrice = 0
 cart.forEach(function(i) {
   itemsAndPrices.push(cart[i])
 })
-// console.log(itemsAndPrices)
+console.log(itemsAndPrices)
 
 
 /*
