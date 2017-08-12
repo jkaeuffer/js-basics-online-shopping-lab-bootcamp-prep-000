@@ -76,7 +76,7 @@ function placeOrder(cardNumber) {
   for (let i = 0; i < cart.length; i++) {
     cartItems.push(Object.keys(cart[i])[0])
   }
-  })
+  }
   if (! cardNumber) {
     console.log("Sorry, we don't have a credit card on file for you.")
   }
