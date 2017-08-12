@@ -50,7 +50,7 @@ addToCart('apple')
 let itemsAndPrices = []
 let totalPrice = 0
 cart.forEach(function(e) {
-  itemsAndPrices.push(cart[i])
+  itemsAndPrices.push(e)
 })
 console.log(itemsAndPrices)
 
