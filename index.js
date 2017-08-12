@@ -77,6 +77,9 @@ function placeOrder(cardNumber) {
   }
   else {
     let totalPrice = total()
-    console.log(`Your total cost is \$${totalPrice}, which will be charged to the card ${argument}.`)
+    console.log(`Your total cost is \$${totalPrice}, which will be charged to the card ${cardNumber}.`)
+    cart.forEach(function(item) {
+      removeFromCart(item)
+    })
   }
 }
