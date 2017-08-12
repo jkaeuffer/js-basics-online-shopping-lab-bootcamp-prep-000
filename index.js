@@ -63,11 +63,12 @@ function total() {
   let totalPrice = 0
   for (let i = 0; i < cart.length; i++) {
     itemsAndPrices.push(cart[i])
-  }
+    }
   for (let i = 0; i < itemsAndPrices.length; i++) {
     for (var key in itemsAndPrices[i]) totalPrice += (itemsAndPrices[i][key])
+    }
+  return totalPrice
   }
-}
 function removeFromCart(item) {
   // write your code here
 }
