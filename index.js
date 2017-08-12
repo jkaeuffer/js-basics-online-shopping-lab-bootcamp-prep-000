@@ -50,7 +50,7 @@ let itemsAndPrices = []
 for (let i = 0; i<cart.length; i++) {
   itemsAndPrices.push(cart[i])
 }
-console.log(Object.keys(cart[0])])
+console.log(Object.keys(cart[0]))
 /*
 The total() function accepts no arguments, iterates through the cart array,
 and returns the current total value of the items in the cart.*/
