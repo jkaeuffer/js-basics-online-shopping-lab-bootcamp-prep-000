@@ -46,7 +46,7 @@ function viewCart() {
 }
 addToCart('banana')
 addToCart('apple')
-console.log(cart[0])
+let item = cart[0]
 /*
 The total() function accepts no arguments, iterates through the cart array,
 and returns the current total value of the items in the cart.*/
