@@ -60,7 +60,6 @@ cart.forEach(function(item) {
     cart.pop(item)
   }
 })
-return cart
 console.log(cart)
 
 function removeFromCart(item) {
