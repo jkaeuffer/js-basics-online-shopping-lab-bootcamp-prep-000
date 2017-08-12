@@ -44,6 +44,14 @@ function viewCart() {
     return console.log(`In your cart, you have ${shoppingList}.`)
   }
 }
+addToCart('banana')
+addToCart('apple')
+let itemsAndPrices = []
+let totalPrice = 0
+for (var item in cart) itemsAndPrices.push(item)
+console.log(itemsAndPrices)
+
+
 /*
 The total() function accepts no arguments, iterates through the cart array,
 and returns the current total value of the items in the cart.*/
