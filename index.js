@@ -70,6 +70,7 @@ function removeFromCart(item) {
       cart.pop(itemIndex[i])
     }
     }
+    return cart
     }
 
 addToCart('banana')
