@@ -48,7 +48,7 @@ function viewCart() {
 function total() {
   let totalPrice = 0
   cart.forEach(function(item) { //iterate through each value of the cart and push its price
-    for (var key in item) totalPrice += (foo[item])
+    for (var key in item) totalPrice += (item[key])
   })
   return totalPrice
   }
