@@ -48,7 +48,7 @@ addToCart('banana')
 addToCart('apple')
 let itemsAndPrices = []
 let totalPrice = 0
-for (var item in cart) itemsAndPrices.push(item)
+for (var item in cart) itemsAndPrices.push(cart[item])
 console.log(itemsAndPrices)
 
 
