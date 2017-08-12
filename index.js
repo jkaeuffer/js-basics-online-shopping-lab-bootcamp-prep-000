@@ -58,9 +58,9 @@ and returns the current total value of the items in the cart.*/
 function total() {
   let itemsAndPrices = []
   let totalPrice = 0
-  for (var index in cart) {
-    itemsAndPrices.push(cart[index])
-  }
+  cart.forEach(function(i) {
+    itemsAndPrices.push(cart[i])
+  })
   for (let i = 0; i < itemsAndPrices.length; i++) {
     for (var key in itemsAndPrices[i]) totalPrice += (itemsAndPrices[i][key])
     }
