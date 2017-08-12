@@ -73,8 +73,9 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   let cartItems = [];
-  cart.forEach(function(element) {
-    cartItems.push(element[0])
+  for (let i = 0; i < cart.length; i++) {
+    cartItems.push(cart[i])
+  }
   })
   if (! cardNumber) {
     console.log("Sorry, we don't have a credit card on file for you.")
