@@ -63,7 +63,12 @@ cart.forEach(function(item) {
 console.log(cart)
 
 function removeFromCart(item) {
-  cart.forEach(function(item))
+  cart.forEach(function(thing)) {
+    if (item.hasOwnProperty(item)) {
+      cart.pop(item)
+    }
+  }
+  return cart
   }
 
 function placeOrder(cardNumber) {
