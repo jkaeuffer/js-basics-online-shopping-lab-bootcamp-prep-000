@@ -75,10 +75,6 @@ function removeFromCart(item) {
     return cart
   }
 
-addToCart('banana')
-addToCart('apples')
-removeFromCart('apples')
-console.log(cart)
 
 function placeOrder(cardNumber) {
   // write your code here
