@@ -61,7 +61,7 @@ and returns the current total value of the items in the cart.*/
 function total() {
   let totalPrice = 0
   for (let i = 0; i < cart.length; i++) {
-    for (var key in itemsAndPrices[i]) totalPrice += (itemsAndPrices[i][key])
+    for (var key in cart[i]) totalPrice += (itemsAndPrices[i][key])
     }
   return totalPrice
   }
