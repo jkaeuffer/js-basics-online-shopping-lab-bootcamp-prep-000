@@ -52,10 +52,11 @@ function total() {
   })
   return totalPrice
   }
-  
+addToCart('banana')
+addToCart('apple')
+
 function removeFromCart(item) {
-  if cart.hasOwnProperty(item) {
-    delete cart.item
+  
   }
 }
 
