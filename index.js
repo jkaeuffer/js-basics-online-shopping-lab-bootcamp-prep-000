@@ -61,6 +61,12 @@ and returns the current total value of the items in the cart.*/
 function total() {
   let itemsAndPrices = []
   let totalPrice = 0
+  for (let i = 0; i < cart.length; i++) {
+    itemsAndPrices.push(cart[i])
+  }
+  for (let i = 0; i < itemsAndPrices.length; i++) {
+    for (var key in itemsAndPrices[i]) totalPrice += (itemsAndPrices[i][key])
+  }
 }
 function removeFromCart(item) {
   // write your code here
