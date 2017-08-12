@@ -51,7 +51,6 @@ let prices = 0
 for (let i = 0; i<cart.length; i++) {
   itemsAndPrices.push(cart[i])
 }
-let item = Object.keys(cart[0])
 for (let i = 0; i < itemsAndPrices.length; i++) {
   for (var key in itemsAndPrices[i]) prices += (itemsAndPrices[i][key])
 }
