@@ -44,15 +44,6 @@ function viewCart() {
     return console.log(`In your cart, you have ${shoppingList}.`)
   }
 }
-addToCart('banana')
-addToCart('apple')
-// console.log(cart)
-let itemsAndPrices = []
-let totalPrice = 0
-cart.forEach(function(e) {
-  itemsAndPrices.push(e)
-})
-console.log(itemsAndPrices)
 
 
 /*
@@ -61,7 +52,7 @@ and returns the current total value of the items in the cart.*/
 function total() {
   let totalPrice = 0
   for (let i = 0; i < cart.length; i++) {
-    for (var key in cart[i]) totalPrice += (itemsAndPrices[i][key])
+    for (var key in cart[i]) totalPrice += (cart[i][key])
     }
   return totalPrice
   }
