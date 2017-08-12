@@ -46,8 +46,9 @@ function viewCart() {
 }
 addToCart('banana')
 addToCart('apple')
-let cartStuff = Object.keys(cart)
-console.log(cartStuff)
+for (var key in cart) {
+  console.log(key)
+}
 /*
 The total() function accepts no arguments, iterates through the cart array,
 and returns the current total value of the items in the cart.*/
