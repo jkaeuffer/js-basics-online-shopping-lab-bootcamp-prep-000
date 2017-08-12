@@ -74,7 +74,7 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   let cartItems = [];
   for (let i = 0; i < cart.length; i++) {
-    cartItems.push(cart[i])
+    cartItems.push(Object.keys(cart[i])[0])
   }
   })
   if (! cardNumber) {
