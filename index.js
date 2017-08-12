@@ -57,7 +57,7 @@ addToCart('banana')
 addToCart('apple')
 cart.forEach(function(smth) {
   if (cart[smth].hasOwnProperty('apple')) {
-    cart.pop(smth)
+    cart.pop(cart[smth])
   }
 })
 
