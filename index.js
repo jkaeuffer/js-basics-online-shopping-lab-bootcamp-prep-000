@@ -64,7 +64,7 @@ function total() {
   cart.forEach(function(i) {
     itemsAndPrices.push(cart[i])
   })
-  for (let i = 0; i < itemsAndPrices.length; i++) {
+  for (let i = 0; i < cart.length; i++) {
     for (var key in itemsAndPrices[i]) totalPrice += (itemsAndPrices[i][key])
     }
   return totalPrice
