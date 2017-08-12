@@ -45,14 +45,10 @@ function viewCart() {
   }
 }
 
-
-/*
-The total() function accepts no arguments, iterates through the cart array,
-and returns the current total value of the items in the cart.*/
 function total() {
   let totalPrice = 0
-  cart.forEach(function(e) {
-    for (var key in e) totalPrice += (e[key])
+  cart.forEach(function(foo) {
+    for (var key in foo) totalPrice += (foo[key])
   })
   return totalPrice
   }
