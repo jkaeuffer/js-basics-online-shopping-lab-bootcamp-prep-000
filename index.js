@@ -76,7 +76,7 @@ function removeFromCart(item) {
   addToCart("watermelon");
   addToCart("yams");
     removeFromCart("blah");
-cart[0]
+console.log(cart[0].hasOwnProperty('vanilla'))
 
 function placeOrder(cardNumber) {
   // write your code here
