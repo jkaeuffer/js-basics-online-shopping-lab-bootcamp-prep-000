@@ -62,11 +62,7 @@ function removeFromCart(item) {
       itemFound = true;
     }
   }
-
   if (itemFound) {
-    for (let i = 0; i < itemIndex.length; i++) {
-      cart.pop(itemIndex[i])
-      }
     }
   else {
     console.log("That item is not in your cart.")
