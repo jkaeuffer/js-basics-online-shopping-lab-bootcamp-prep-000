@@ -54,7 +54,9 @@ function total() {
   }
   
 function removeFromCart(item) {
-  // write your code here
+  if cart.hasOwnProperty(item) {
+    delete cart.item
+  }
 }
 
 function placeOrder(cardNumber) {
