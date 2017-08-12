@@ -49,7 +49,7 @@ addToCart('apple')
 // console.log(cart)
 let itemsAndPrices = []
 let totalPrice = 0
-cart.forEach(function(i) {
+cart.forEach(function(e) {
   itemsAndPrices.push(cart[i])
 })
 console.log(itemsAndPrices)
