@@ -57,6 +57,7 @@ function total() {
   for (let i = 0; i < itemPrices.length; i++) {
     totalPrice += parseInt(itemPrices[i])
   }
+  return totalPrice
 }
 
 function removeFromCart(item) {
