@@ -46,6 +46,7 @@ function viewCart() {
 }
 addToCart('banana')
 addToCart('apple')
+console.log(cart)
 let itemsAndPrices = []
 let totalPrice = 0
 cart.forEach(function(i) {
