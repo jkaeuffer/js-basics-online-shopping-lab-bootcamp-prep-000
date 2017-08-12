@@ -59,7 +59,7 @@ function removeFromCart(item) {
   let itemIndex = [];
   for (let i = 0; i < cart.length; i++) {
     if (cart[i].hasOwnProperty(item)) {
-      cart.pop(cart[i])
+      itemIndex.push(i)
       return cart
     }
     else {
