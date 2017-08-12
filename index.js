@@ -61,6 +61,7 @@ cart.forEach(function(item) {
   }
 })
 return cart
+console.log(cart)
 
 function removeFromCart(item) {
 
