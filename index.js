@@ -47,7 +47,7 @@ function viewCart() {
 addToCart('banana')
 addToCart('apple')
 for (var key in cart) {
-  console.log(key)
+  console.log('key')
 }
 /*
 The total() function accepts no arguments, iterates through the cart array,
