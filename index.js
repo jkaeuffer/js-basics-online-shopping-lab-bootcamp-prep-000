@@ -45,8 +45,14 @@ function viewCart() {
   }
 }
 
+/* 
+The total() function accepts no arguments, iterates through the cart array, 
+and returns the current total value of the items in the cart.*/
 function total() {
-  // write your code here
+  let itemPrices = []
+  for (var key in cart) {
+    itemPrices.push(cart[key])
+  }
 }
 
 function removeFromCart(item) {
