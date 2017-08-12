@@ -10,11 +10,39 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
+ cart.push({[item]: Math.floor(Math.random()*100)})
+ console.log(`${item} has been added to your cart.`)
+ return cart
 }
 
 function viewCart() {
-  // write your code here
+  const length = cart.length
+  if (length === 0) {
+    return console.log("Your shopping cart is empty.")
+  }
+  else {
+  let shoppingList = []
+
+  for (let i = 0; i < length; i++) {
+    let itemInfo = cart[i]
+    let item = Object.keys(itemInfo)[0]
+    let price = itemInfo[item]
+    shoppingList.push(`${item} at \$${price}`)
+    }
+
+    switch(shoppingList.length) {
+      case 1:
+        break;
+      case 2:
+        shoppingList = shoppingList.join(" and ");
+        break;
+      default:
+        shoppingList[shoppingList.length - 1] = `and ${shoppingList[shoppingList.length -1]}`
+        shoppingList = shoppingList.join(", ")
+        break;
+    }
+    return console.log(`In your cart, you have ${shoppingList}.`)
+  }
 }
 
 function total() {
