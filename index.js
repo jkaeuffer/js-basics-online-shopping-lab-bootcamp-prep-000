@@ -79,7 +79,7 @@ function removeFromCart(item) {
     if (cart[0].hasOwnProperty('vanilla')) {
       cart.pop(cart[0])
     }
-console.log(cart[0].hasOwnProperty('vanilla'))
+console.log(cart)
 
 function placeOrder(cardNumber) {
   // write your code here
