@@ -45,8 +45,8 @@ function viewCart() {
   }
 }
 
-/* 
-The total() function accepts no arguments, iterates through the cart array, 
+/*
+The total() function accepts no arguments, iterates through the cart array,
 and returns the current total value of the items in the cart.*/
 function total() {
   let itemPrices = []
