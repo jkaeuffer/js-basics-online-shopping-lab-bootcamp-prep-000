@@ -52,7 +52,7 @@ function total() {
   let itemPrices = []
   let totalPrice = 0
   for (var key in cart) {
-    itemPrices.push(Object.keys(itemInfo)[1])
+    itemPrices.push(Object.keys(key)[1])
   }
   for (let i = 0; i < itemPrices.length; i++) {
     totalPrice += parseInt(itemPrices[i])
