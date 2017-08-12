@@ -47,16 +47,18 @@ function viewCart() {
 
 function total() {
   let totalPrice = 0
-  cart.forEach(function(index) { //iterate through each value of the cart and push its price
-    for (var key in index) totalPrice += (foo[index])
+  cart.forEach(function(smth) { //iterate through each value of the cart and push its price
+    for (var key in smth) totalPrice += (foo[smth])
   })
   return totalPrice
   }
 
 addToCart('banana')
 addToCart('apple')
-cart.forEach(function(index) {
-  if (cart[index].hasOwnProperty('apple'))
+cart.forEach(function(smth) {
+  if (cart[smth].hasOwnProperty('apple')) {
+    cart.
+  }
 })
 
 function removeFromCart(item) {
