@@ -65,15 +65,15 @@ function removeFromCart(item) {
   }
 
   if (itemFound) {
-    console.log("That item is not in your cart.")
-    }
-  else {
     for (let i = 0; i < itemIndex.length; i++) {
       cart.pop(itemIndex[i])
+      }
     }
+  else {
+    console.log("That item is not in your cart.")
     }
     return cart
-    }
+  }
 
 addToCart('banana')
 addToCart('apples')
