@@ -48,7 +48,9 @@ function viewCart() {
 addToCart('apple')
 let itemsAndPrices = []
 let totalPrice = 0
-for (var index in cart) itemsAndPrices.push(cart[index])
+cart.forEach(function(i) {
+  itemsAndPrices.push(cart[i])
+})
 console.log(itemsAndPrices)
 */
 
