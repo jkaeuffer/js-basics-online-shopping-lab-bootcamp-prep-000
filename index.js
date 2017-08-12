@@ -47,14 +47,15 @@ function viewCart() {
 
 function total() {
   let totalPrice = 0
-  cart.forEach(function(foo) { //iterate through each value of the cart and push its price
-    for (var key in foo) totalPrice += (foo[key])
+  cart.forEach(function(index) { //iterate through each value of the cart and push its price
+    for (var key in index) totalPrice += (foo[index])
   })
   return totalPrice
   }
+
 addToCart('banana')
 addToCart('apple')
-console.log(cart)
+cart.forEach(function)
 
 function removeFromCart(item) {
 
