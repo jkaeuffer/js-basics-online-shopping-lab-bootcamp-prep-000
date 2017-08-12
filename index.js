@@ -75,7 +75,7 @@ function removeFromCart(item) {
   addToCart("vanilla");
   addToCart("watermelon");
   addToCart("yams");
-    removeFromCart("vanilla");
+    removeFromCart("blah");
     console.log(cart)
 
 function placeOrder(cardNumber) {
