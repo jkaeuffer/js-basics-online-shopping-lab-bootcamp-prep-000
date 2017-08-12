@@ -56,7 +56,7 @@ function total() {
 
 function removeFromCart(item) {
   cart.forEach(function(thing) {
-    if (item.hasOwnProperty(item)) {
+    if (thing.hasOwnProperty(item)) {
       cart.pop(item)
     }
     else {
