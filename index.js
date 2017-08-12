@@ -76,7 +76,7 @@ function removeFromCart(item) {
   addToCart("watermelon");
   addToCart("yams");
     if (cart[0].hasOwnProperty('vanilla')) {
-      delete cart[0]
+      cart[0].unshift()
     }
 console.log(cart)
 
