@@ -53,7 +53,7 @@ for (let i = 0; i<cart.length; i++) {
 }
 let item = Object.keys(cart[0])
 for (let i = 0; i < itemsAndPrices.length; i++) {
-  for (var key in itemsAndPrices[i]) console.log(itemsAndPrices[i][key])
+  for (var key in itemsAndPrices[i]) prices += (itemsAndPrices[i][key])
 }
 /*
 The total() function accepts no arguments, iterates through the cart array,
