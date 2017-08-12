@@ -56,8 +56,8 @@ function total() {
 addToCart('banana')
 addToCart('apple')
 cart.forEach(function(item) {
-  if (cart[item].hasOwnProperty('apple')) {
-    cart.pop(cart[smth])
+  if (item.hasOwnProperty('apple')) {
+    cart.pop(item)
   }
 })
 return cart
