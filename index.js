@@ -71,13 +71,13 @@ function removeFromCart(item) {
     }
   }
 
-  addToCart("vanilla");
-  addToCart("watermelon");
-  addToCart("yams");
-    if (cart[0].hasOwnProperty('vanilla')) {
-      cart.shift(cart[0])
-    }
-console.log(cart)
+//   addToCart("vanilla");
+//   addToCart("watermelon");
+//   addToCart("yams");
+//     if (cart[0].hasOwnProperty('vanilla')) {
+//       cart.shift(cart[0])
+//     }
+// console.log(cart)
 
 function placeOrder(cardNumber) {
   // write your code here
