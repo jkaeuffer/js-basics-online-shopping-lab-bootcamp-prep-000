@@ -55,6 +55,7 @@ let item = Object.keys(cart[0])
 for (let i = 0; i < itemsAndPrices.length; i++) {
   for (var key in itemsAndPrices[i]) prices += (itemsAndPrices[i][key])
 }
+console.log(prices)
 /*
 The total() function accepts no arguments, iterates through the cart array,
 and returns the current total value of the items in the cart.*/
