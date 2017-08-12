@@ -58,7 +58,7 @@ function removeFromCart(item) {
   let itemFound = false;
   for (let i = 0; i < cart.length; i++) {
     if (cart[i].hasOwnProperty(item)) {
-      cart.pop(cart[i])
+      cart.shift(cart[i])
       console.log('removed')
       itemFound = true;
     }
