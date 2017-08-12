@@ -82,4 +82,5 @@ function placeOrder(cardNumber) {
       removeFromCart(item)
     })
   }
+  return cart
 }
