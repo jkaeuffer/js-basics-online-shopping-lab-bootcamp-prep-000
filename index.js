@@ -52,7 +52,7 @@ and returns the current total value of the items in the cart.*/
 function total() {
   let totalPrice = 0
   cart.forEach(function(e) {
-    for (var key in e) totalPrice += (cart[i][key])
+    for (var key in e) totalPrice += (e[key])
     }
   return totalPrice
   }
