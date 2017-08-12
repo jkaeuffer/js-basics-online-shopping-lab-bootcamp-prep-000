@@ -74,7 +74,7 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   let cartItems = [];
   cart.forEach(function(element) {
-    cartItems.push(element[o])
+    cartItems.push(element[0])
   })
   if (! cardNumber) {
     console.log("Sorry, we don't have a credit card on file for you.")
@@ -82,8 +82,7 @@ function placeOrder(cardNumber) {
   else {
     let totalPrice = total()
     console.log(`Your total cost is \$${totalPrice}, which will be charged to the card ${cardNumber}.`)
-    
-    cart.forEach(function(item) {
+    cartItems.forEach(function(item) {
       removeFromCart(item)
     })
   }
