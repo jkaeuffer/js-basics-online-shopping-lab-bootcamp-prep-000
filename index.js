@@ -55,7 +55,7 @@ function total() {
     itemPrices.push(cart[key])
   }
   for (let i = 0; i < itemPrices.length; i++) {
-    totalPrice += itemPrices[i]
+    totalPrice += parseInt(itemPrices[i])
   }
 }
 
